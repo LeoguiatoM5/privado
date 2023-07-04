@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Declaração de Amor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    #image {
+        display: none;
+      margin: 220px auto 0;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    #button {
+      padding: 10px 20px;
+      background-color: #ff5252;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pressione o botão Zica!</h1>
+  <button id="button">Clique aqui</button>
+  <img id="image" src="https://static.mundodasmensagens.com/upload/listas/m/e/mensagens-de-eu-te-amo-3V5lN-fxl.png" alt="Eu te amo" width="600">
+
+  <script>
+    var button = document.getElementById('button');
+    var image = document.getElementById('image');
+
+    button.addEventListener('click', function() {
+      image.style.display = 'block'
+    });
+  </script>
+</body>
+</html>
